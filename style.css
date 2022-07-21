@@ -1,0 +1,577 @@
+/* googlefont */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#main {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.main {
+    display: block;
+    margin-top: 100rem;
+    margin: auto;
+    height: 100vh;
+    width: 90%;
+    background-color: black;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.fonts {
+    color: white;
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+    overflow: hidden;
+    position: relative;
+
+
+
+}
+
+.text {
+    height: 100%;
+    margin: 3rem 0rem 3rem 3rem;
+
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+}
+
+.text button {
+    background-color: crimson;
+    padding: 6px;
+    border: none;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+
+}
+
+
+.text i {
+    padding-left: 1rem;
+    font-size: .9rem;
+
+    padding-bottom: -10rem;
+}
+
+.fonts h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+
+
+}
+
+
+.img {
+
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+    overflow: hidden;
+
+}
+
+
+
+.img img {
+    position: absolute;
+    bottom: 0;
+    padding-right: 5rem;
+
+    height: 24rem;
+}
+
+@media only screen and (max-width:1500px) {
+
+    /* For desktob*/
+
+    .sub-card {
+        margin: 0rem 0rem 0rem 14rem;
+
+    }
+
+    .sub-card-goal {
+        margin: 0rem 0rem 0rem 14rem;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+
+    /* For tablets */
+    .fonts {
+        width: 50%;
+        padding: 0;
+    }
+
+    .img {
+        ;
+        background-color: #0072b1;
+
+    }
+
+    .img img {
+        height: 20em;
+        margin-top: 0rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .main {
+        height: 100vh;
+
+    }
+
+    #main {
+        margin-bottom: 2rem;
+    }
+
+
+    .img {
+        /* width: 100%;
+        height: 30vh; */
+
+    }
+
+    .img img {
+        height: 20rem;
+    }
+
+    .fonts {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .sub-card {
+        margin: auto;
+    }
+
+    /* .card {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 3rem;
+    } */
+
+
+
+}
+
+
+/* card */
+#card {
+    margin: auto;
+    height: 100%;
+    width: 90.7%;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: ;
+}
+
+.menu {
+    width: 14rem;
+    height: 12rem;
+    background-color: black;
+    color: black;
+    padding: 2rem 2rem 0rem 2rem;
+    border-radius: .5rem;
+
+}
+
+.up {
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.up-in a {
+    text-decoration: none;
+    color: white;
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    margin-bottom: 1rem;
+}
+
+.blog-in a {
+    text-decoration: none;
+    color: black;
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.up a {
+    text-decoration: none;
+    color: black;
+}
+
+.all {
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.blog {
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 33, 33);
+
+}
+
+
+
+.card {
+    height: 16rem;
+    width: 13rem;
+    float: left;
+    margin: 1rem;
+    margin-top: 0;
+
+
+}
+
+.card:hover {
+    background-color: rgba(71, 100, 98, 0.048);
+    border-radius: .5rem;
+    box-shadow: 5px 11px 11px rgba(74, 74, 74, 0.495);
+}
+
+.card div {
+    display: flex;
+    padding-top: 1rem;
+
+}
+
+.card div img {
+    padding-right: 11px;
+
+}
+
+.card button {
+
+    background: none;
+    border: 1px solid gray;
+    padding: .3rem .6rem;
+    border-radius: .3rem;
+    margin: .9rem 0rem;
+
+}
+
+.img-blog {
+    height: 7.3rem;
+
+}
+
+
+
+
+
+@media only screen and (max-width:800px) {
+
+    /* For tablets */
+    .fonts {
+        width: 50%;
+        padding: 0;
+    }
+
+    .img {
+        width: 100%;
+
+    }
+
+    .img img {
+        height: 15em;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .menu-div {}
+
+    .fonts {
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .img {
+        /* height: 50vh; */
+        width: 100%;
+
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+
+
+    }
+
+    .sub-card-goal {
+        margin: auto;
+    }
+
+    .img-blog {
+        height: 12.3rem;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .footer a {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+/* inerpage */
+.card-flag {
+    margin: 0rem .5rem;
+    float: left;
+    height: 10rem;
+    width: 13rem;
+    border: 2px solid rgba(209, 208, 208, 0.352);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .7rem;
+}
+
+.card-flag:hover {
+    background-color: rgba(71, 100, 98, 0.048);
+    border: none;
+    box-shadow: 5px 11px 11px rgba(74, 74, 74, 0.495);
+}
+
+.card-flag .text-flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.text-flag p {
+    margin-top: .9rem;
+    font-size: small;
+}
+
+.flag-img {
+    height: 2.5rem;
+
+
+}
+
+.card-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.card-img p {
+    display: flex;
+    margin: .3rem 1rem;
+    align-items: center;
+
+
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .menu {
+        height: 25vh;
+        width: 100%;
+        margin: auto;
+        margin-bottom: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .menu-div {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        margin: auto;
+    }
+
+    .card-flag {
+        width: 100%;
+        height: 30vh;
+        margin: auto;
+        margin-top: 1rem;
+
+
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        margin-top: 1rem;
+        background-color: black;
+
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    .footer h1 {
+        margin-top: 5rem;
+        margin-left: -3.9rem;
+    }
+
+    .footer .p-tag {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .p-tag a {
+        margin-bottom: 1rem;
+    }
+}
+
+
+footer {
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer h1 {
+    margin-bottom: 3.5rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    margin: .5rem;
+}
+
+
+.socialmedia {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.socialmedia .facebook a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color: #4267B2;
+    margin: .5rem;
+}
+
+.socialmedia .youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color: #FF0000;
+    margin: .5rem;
+}
+
+.socialmedia .dinkdin a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color: #0072b1;
+    margin: .5rem;
+}
+
+.socialmedia .instagram a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color: #3f729b;
+    margin: .5rem;
+}
